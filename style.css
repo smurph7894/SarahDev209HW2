@@ -1,0 +1,41 @@
+* {
+    margin: 0rem;
+    padding: .75rem;
+    font-size: 1.25rem;
+}
+
+body {
+    width: 720px;
+    display: none;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 900;
+    padding-left: .5rem;
+}
+
+button {
+    color: white;
+    font-size: 1rem;
+    background-color: cornflowerblue;
+    border-radius: 25%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+ul {
+    padding-left: 1.9rem;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    padding-right: 0rem;
+}
+
+li {
+    padding: 0rem;
+}
+
+.buttonsBar {
+    padding: 0rem;
+}

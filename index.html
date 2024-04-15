@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"> 
+        <title>HW2</title>
+    </head>
+    <body id="body"> 
+        <h1>css homework</h1>  
+        <div>
+            <ul id="list"></ul>
+            <div id="buttons" class="buttonsBar">
+                <button id="caps" type="button" onclick="allCaps()">CAPS</button>
+                <button id="red" type="button" onclick="(() => {document.getElementById('list').style.color = 'red'})();">RED</button>
+                <button id="swap" type="button" onclick="swapLetters()">SWAP</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
